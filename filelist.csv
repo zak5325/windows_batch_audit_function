@@ -1,0 +1,4 @@
+filename,flag
+orders_20240101.csv,Y
+reference_data.csv,Y
+optional_log.csv,N
