@@ -1,5 +1,20 @@
 # windows_batch_audit_function
 
+## Quick Start
+
+1. Edit `filelist.csv` with `filename,flag` (`Y` required / `N` optional).
+2. Run: `validate.bat [FTP_PATH] [FILELIST_PATH] [OUTPUT_DIR]`.
+3. Check generated reports:
+   - `existence_check.csv`
+   - `rowcount_check.csv`
+
+Example:
+
+```bat
+validate.bat C:\FTP\IN .\filelist.csv .\output
+```
+
+
 # Design Document: file-validation-check
 
 ## Overview
